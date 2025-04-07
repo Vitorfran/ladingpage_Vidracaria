@@ -45,17 +45,13 @@ Ambas são fontes profissionais do Google Fonts que transmitem seriedade e moder
 
 O site se adapta perfeitamente a qualquer dispositivo. O menu se transforma em um botão “hambúrguer” em telas pequenas e todas as seções possuem espaçamento e fontes ajustadas para uma boa leitura no celular.
 
-## 📤 Publicação
-
-Você pode publicar este site gratuitamente no GitHub Pages, Netlify ou no servidor da própria Vidraçaria.
 
 ## 💼 Desenvolvedor
 
-**Vito [Seu Sobrenome]**  
-Desenvolvedor Web | Técnico em Desenvolvimento de Sistemas  
-📧 contato: [seuemail@email.com]  
-📱 WhatsApp: [(xx) xxxx-xxxx]  
-📍 Localizado em [sua cidade]
+**Vitor oliveira**  
+Desenvolvedor de software | Técnico em Desenvolvimento de Sistemas  
+📧 contato: [vitorpoizon@gmail.com]  
+📱 WhatsApp: [(81) 99602-5631]  
 
 ---
 
