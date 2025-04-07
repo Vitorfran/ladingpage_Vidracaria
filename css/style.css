@@ -1,0 +1,125 @@
+  /* Fontes */
+  * {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6,
+  .navbar-brand,
+  .display-5,
+  .card-title,
+  .card h3,
+  .card h5 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+  }
+
+  /* Estilos gerais */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Rolagem personalizada */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #007b9e;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #005f73;
+  }
+
+  /* Animação das seções */
+  .animated-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+  }
+
+  .animated-section.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .carousel-inner {
+    height: auto;
+    min-height: 200px;
+  }
+
+  .carousel-inner img {
+    height: auto;
+    max-height: 300px;
+    width: 100%;
+    object-fit: contain;
+    background-color: #f8f9fa;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .carousel {
+    margin-bottom: 15px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: auto;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .btn-orcamento {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+  }
+
+  .social-icons a {
+    color: #6c757d;
+    font-size: 1.25rem;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #0d6efd;
+  }
+
+  @media (max-width: 991.98px) {
+    .social-icons {
+      margin-left: 0;
+      margin-top: 10px;
+      justify-content: center;
+    }
+  }
+
+  /* Estilos específicos para a introdução */
+  .intro-badge {
+    background-color: rgba(13, 110, 253, 0.1);
+    color: #0d6efd;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
