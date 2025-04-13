@@ -64,10 +64,6 @@
           <div class="col-lg-6 mb-4 mb-lg-0">
             <div class="position-relative">
               <img src="assets/img/espelhoIntroducao.png" alt="Showroom Grande Serra" class="img-fluid rounded shadow-lg">
-              <div class="position-absolute bottom-0 start-0 bg-primary text-white p-3 m-3 rounded">
-                <h4 class="mb-0">Desde de 2022</h4>
-                <p class="mb-0 small">3 anos de experiência</p>
-              </div>
             </div>
           </div>
           <div class="col-lg-6">
@@ -361,11 +357,40 @@
     </div>
   </footer>
 
+  <!-- Botão Voltar ao Topo -->
+<button class="back-to-top" title="Voltar ao topo">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Script para animações -->
   <script>
+    // Adicione este código dentro do seu event listener DOMContentLoaded existente
+
+// Botão Voltar ao Topo
+const backToTopButton = document.querySelector('.back-to-top');
+
+window.addEventListener('scroll', function() {
+  // Mostra/esconde o botão
+  if (window.scrollY > 250) {
+    backToTopButton.classList.add('active');
+  } else {
+    backToTopButton.classList.remove('active');
+  }
+});
+
+// Função para voltar ao topo
+backToTopButton.addEventListener('click', function(e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+
     document.addEventListener('DOMContentLoaded', function() {
       // Animação de scroll suave para links internos
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
