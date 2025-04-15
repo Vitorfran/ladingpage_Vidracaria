@@ -1,6 +1,8 @@
 
 # 🌟 Vidraçaria Grande Serra - Website Responsivo
 
+URL: https://vidracariagrandeserra.com.br/
+
 Este é o site oficial da **Vidraçaria Grande Serra**, desenvolvido com foco em apresentar os serviços da empresa de forma moderna, profissional e acessível em qualquer dispositivo (computador, tablet ou celular).
 
 ## 🔧 Tecnologias Utilizadas
